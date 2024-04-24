@@ -1,0 +1,8 @@
+[package]
+name = "recryption-proxy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.7.5", features = ["http2"] }
+iroh = "0.13.0"
